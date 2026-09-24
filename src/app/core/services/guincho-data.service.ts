@@ -9,7 +9,7 @@ export class GuinchoDataService {
     name: 'Bloopu Guincho Express',
     shortName: 'Bloopu Guincho',
     tagline: 'Express · 24h',
-    cnpj: '66.576.050/0001-20',
+    cnpj: '68.837.810/0001-30',
     city: 'Praia Grande',
     state: 'SP',
     region: 'Praia Grande/SP e região',
