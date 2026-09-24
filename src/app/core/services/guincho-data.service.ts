@@ -6,8 +6,8 @@ import { BenefitItem, CompanyConfig, FaqItem, ServiceItem, TestimonialItem } fro
 })
 export class GuinchoDataService {
   readonly company = signal<CompanyConfig>({
-    name: 'Titan Guincho Express',
-    shortName: 'Titan Guincho',
+    name: 'Bloopu Guincho Express',
+    shortName: 'Bloopu Guincho',
     tagline: 'Express · 24h',
     cnpj: '66.576.050/0001-20',
     city: 'Praia Grande',

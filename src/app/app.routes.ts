@@ -8,7 +8,7 @@ export const routes: Routes = [
       {
         path: '',
         loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent),
-        title: 'Guincho 24 Horas em Praia Grande | Titan Guincho Express'
+        title: 'Guincho 24 Horas em Praia Grande | Bloopu Guincho Express'
       },
       {
         path: 'servicos',
@@ -18,7 +18,7 @@ export const routes: Routes = [
       {
         path: 'servicos/:id',
         loadComponent: () => import('./pages/services/service-detail.component').then(m => m.ServiceDetailComponent),
-        title: 'Detalhes do Serviço | Titan Guincho Express'
+        title: 'Detalhes do Serviço | Bloopu Guincho Express'
       }
     ]
   },
