@@ -16,7 +16,7 @@ export class GuinchoDataService {
     phone: '(13) 95546-2859',
     phoneTel: 'tel:+5513955462859',
     whatsappNumber: '5513955462859',
-    logoUrl: 'assets/logo.png',
+    logoUrl: 'assets/logo-v2.png',
     heroBgUrl: 'assets/img1.jpeg',
     whyUsImgUrl: 'assets/img3.jpeg',
     coverageImgUrl: 'assets/img4.jpeg',
