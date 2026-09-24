@@ -15,8 +15,8 @@ body {
 }
 
 ::selection {
-  background: #f45100;
-  color: #ffffff;
+  background: #ffb800;
+  color: #000000;
 }
 
 .font-display {
@@ -24,28 +24,28 @@ body {
   letter-spacing: -0.02em;
 }
 
-.brand-orange {
-  color: #f45100;
+.brand-yellow {
+  color: #ffb800 !important;
 }
 
-.bg-brand-orange {
-  background-color: #f45100;
+.bg-brand-yellow {
+  background-color: #ffb800 !important;
 }
 
-.bg-brand-orange-hover:hover {
-  background-color: #d14500;
+.bg-brand-yellow-hover:hover {
+  background-color: #e0a800 !important;
 }
 
-.border-brand-orange {
-  border-color: #f45100;
+.border-brand-yellow {
+  border-color: #ffb800 !important;
 }
 
 .hero-overlay {
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45) 50%, rgba(244, 81, 0, 0.3));
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55) 50%, rgba(255, 184, 0, 0.25));
 }
 
 .emergency-stripes {
-  background-image: repeating-linear-gradient(45deg, #f45100, #f45100 16px, #0a0a0a 0, #0a0a0a 32px);
+  background-image: repeating-linear-gradient(45deg, #ffb800, #ffb800 16px, #0a0a0a 0, #0a0a0a 32px) !important;
 }
 
 .noise-bg {
@@ -90,4 +90,77 @@ body {
 
 .cta-bar-shadow {
   box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* ========================================================================= */
+/* GUARANTEED SAFETY YELLOW UTILITIES (Direct overrides for templates)       */
+/* ========================================================================= */
+
+.text-\[\#ffb800\],
+.text-\[\#f45100\] {
+  color: #ffb800 !important;
+}
+
+.bg-\[\#ffb800\],
+.bg-\[\#f45100\] {
+  background-color: #ffb800 !important;
+  color: #000000 !important;
+}
+
+.bg-\[\#ffb800\]\/10,
+.bg-\[\#f45100\]\/10 {
+  background-color: rgba(255, 184, 0, 0.1) !important;
+}
+
+.bg-\[\#ffb800\]\/15,
+.bg-\[\#f45100\]\/15 {
+  background-color: rgba(255, 184, 0, 0.15) !important;
+}
+
+.border-\[\#ffb800\],
+.border-\[\#f45100\] {
+  border-color: #ffb800 !important;
+}
+
+.border-\[\#ffb800\]\/30,
+.border-\[\#f45100\]\/30 {
+  border-color: rgba(255, 184, 0, 0.3) !important;
+}
+
+.border-\[\#ffb800\]\/40,
+.border-\[\#f45100\]\/40 {
+  border-color: rgba(255, 184, 0, 0.4) !important;
+}
+
+.hover\:border-\[\#ffb800\]:hover,
+.hover\:border-\[\#f45100\]:hover {
+  border-color: #ffb800 !important;
+}
+
+.hover\:bg-\[\#ffb800\]:hover,
+.hover\:bg-\[\#f45100\]:hover {
+  background-color: #ffb800 !important;
+  color: #000000 !important;
+}
+
+.hover\:bg-\[\#e0a800\]:hover,
+.hover\:bg-\[\#d14500\]:hover {
+  background-color: #e0a800 !important;
+  color: #000000 !important;
+}
+
+.hover\:text-\[\#ffb800\]:hover,
+.hover\:text-\[\#f45100\]:hover {
+  color: #ffb800 !important;
+}
+
+.shadow-\[\#ffb800\]\/30,
+.shadow-\[\#f45100\]\/30 {
+  box-shadow: 0 10px 25px -5px rgba(255, 184, 0, 0.3) !important;
+}
+
+/* Also support svg stroke/fill */
+svg [stroke="#ffb800"],
+svg [stroke="#f45100"] {
+  stroke: #ffb800 !important;
 }

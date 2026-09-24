@@ -23,7 +23,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
               />
               <div>
                 <div class="font-display font-extrabold text-lg uppercase tracking-tight">{{ company().shortName }}</div>
-                <div class="text-[10px] tracking-[0.3em] uppercase text-[#f45100] font-bold">{{ company().tagline }}</div>
+                <div class="text-[10px] tracking-[0.3em] uppercase text-[#ffb800] font-bold">{{ company().tagline }}</div>
               </div>
             </div>
             <p class="text-white/60 text-sm leading-relaxed">
@@ -36,13 +36,13 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
           <!-- Column 2: Direct Contact -->
           <div>
-            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#f45100] mb-5">Contato direto</h4>
+            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#ffb800] mb-5">Contato direto</h4>
             <ul class="space-y-4">
               <li>
                 <a
                   [href]="company().phoneTel"
                   data-testid="footer-phone-link"
-                  class="flex items-start gap-3 group hover:text-[#f45100] transition-colors"
+                  class="flex items-start gap-3 group hover:text-[#ffb800] transition-colors"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
                     stroke-width="2.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="mt-0.5 flex-shrink-0 text-[#f45100]"
+                    class="mt-0.5 flex-shrink-0 text-[#ffb800]"
                     aria-hidden="true"
                   >
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
@@ -107,7 +107,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
                   stroke-width="2.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="mt-0.5 flex-shrink-0 text-[#f45100]"
+                  class="mt-0.5 flex-shrink-0 text-[#ffb800]"
                   aria-hidden="true"
                 >
                   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
@@ -130,7 +130,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
                   stroke-width="2.5"
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  class="mt-0.5 flex-shrink-0 text-[#f45100]"
+                  class="mt-0.5 flex-shrink-0 text-[#ffb800]"
                   aria-hidden="true"
                 >
                   <circle cx="12" cy="12" r="10"/>
@@ -146,7 +146,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
           <!-- Column 3: Services -->
           <div>
-            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#f45100] mb-5">Serviços 24h</h4>
+            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#ffb800] mb-5">Serviços 24h</h4>
             <ul class="space-y-2.5">
               @for (service of services(); track service.id) {
                 <li>
@@ -154,7 +154,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
                     routerLink="/"
                     fragment="servicos"
                     [attr.data-testid]="'footer-service-' + service.id"
-                    class="text-sm text-white/70 hover:text-[#f45100] transition-colors"
+                    class="text-sm text-white/70 hover:text-[#ffb800] transition-colors"
                   >
                     {{ service.title }}
                   </a>
@@ -165,7 +165,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
           <!-- Column 4: Quick Action -->
           <div>
-            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#f45100] mb-5">Atendimento Rápido</h4>
+            <h4 class="font-display text-sm font-extrabold uppercase tracking-[0.2em] text-[#ffb800] mb-5">Atendimento Rápido</h4>
             <p class="text-white/60 text-sm mb-4">
               Base operacional em Praia Grande com suporte imediato em São Vicente, Santos, Mongaguá e Cubatão.
             </p>
@@ -179,7 +179,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
               [href]="whatsappUrl()"
               target="_blank"
               rel="noopener noreferrer"
-              class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 bg-[#f45100] hover:bg-[#d14500] text-white rounded-xl font-bold text-sm transition-all"
+              class="w-full inline-flex items-center justify-center gap-2 py-3 px-4 bg-[#ffb800] hover:bg-[#e0a800] text-black rounded-xl font-bold text-sm transition-all"
             >
               Pedir Guincho Agora
             </a>

@@ -16,7 +16,7 @@ describe('GuinchoDataService', () => {
   it('should provide company config', () => {
     const company = service.company();
     expect(company.name).toContain('Guincho');
-    expect(company.phone).toBe('(13) 99669-1556');
+    expect(company.phone).toBe('(13) 95546-2859');
     expect(company.whatsappNumber).toBe('5513955462859');
   });
 

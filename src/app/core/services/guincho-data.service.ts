@@ -13,7 +13,7 @@ export class GuinchoDataService {
     city: 'Praia Grande',
     state: 'SP',
     region: 'Praia Grande/SP e região',
-    phone: '(13) 99669-1556',
+    phone: '(13) 95546-2859',
     phoneTel: 'tel:+5513955462859',
     whatsappNumber: '5513955462859',
     logoUrl: 'assets/logo.png',

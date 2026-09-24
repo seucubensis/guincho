@@ -59,7 +59,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
         <a
           [href]="company().phoneTel"
           data-testid="mobile-bar-phone-btn"
-          class="flex items-center justify-center gap-2 py-4 bg-[#f45100] text-white font-bold text-sm uppercase tracking-wider active:bg-[#d14500]"
+          class="flex items-center justify-center gap-2 py-4 bg-[#ffb800] text-black font-bold text-sm uppercase tracking-wider active:bg-[#e0a800]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

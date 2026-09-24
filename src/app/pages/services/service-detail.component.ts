@@ -17,11 +17,11 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
             <span>/</span>
             <a routerLink="/servicos" class="hover:text-black">Serviços</a>
             <span>/</span>
-            <span class="text-[#f45100]">{{ s.title }}</span>
+            <span class="text-[#ffb800]">{{ s.title }}</span>
           </div>
 
           <div class="p-8 md:p-12 bg-[#f8f9fa] border border-gray-200 rounded-3xl">
-            <span class="text-xs font-bold tracking-[0.3em] uppercase text-[#f45100]">· Atendimento 24h em Praia Grande ·</span>
+            <span class="text-xs font-bold tracking-[0.3em] uppercase text-[#ffb800]">· Atendimento 24h em Praia Grande ·</span>
             <h1 class="font-display text-4xl sm:text-5xl font-black uppercase tracking-tight text-black mt-2 mb-4 leading-tight">
               {{ s.title }}
             </h1>
@@ -33,15 +33,15 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
             <div class="p-6 bg-white rounded-2xl border border-gray-200 mb-8 space-y-3">
               <div class="flex items-center gap-3 font-semibold text-sm text-gray-800">
-                <span class="w-2.5 h-2.5 rounded-full bg-[#f45100]"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-[#ffb800]"></span>
                 Chegada média em 15 a 30 minutos em Praia Grande
               </div>
               <div class="flex items-center gap-3 font-semibold text-sm text-gray-800">
-                <span class="w-2.5 h-2.5 rounded-full bg-[#f45100]"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-[#ffb800]"></span>
                 Equipamento certificado e transporte seguro com cintas adequadas
               </div>
               <div class="flex items-center gap-3 font-semibold text-sm text-gray-800">
-                <span class="w-2.5 h-2.5 rounded-full bg-[#f45100]"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-[#ffb800]"></span>
                 Pagamento facilitado: PIX, dinheiro, cartão de crédito ou débito
               </div>
             </div>
@@ -70,7 +70,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
     } @else {
       <div class="py-24 text-center">
         <h2 class="text-2xl font-bold mb-4">Serviço não encontrado</h2>
-        <a routerLink="/servicos" class="text-[#f45100] underline font-bold">Ver todos os serviços</a>
+        <a routerLink="/servicos" class="text-[#ffb800] underline font-bold">Ver todos os serviços</a>
       </div>
     }
   `,
