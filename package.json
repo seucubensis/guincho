@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:guincho": "node dist/guincho/server/server.mjs"
+    "serve:ssr:guincho": "node dist/guincho/server/server.mjs",
+    "deploy": "node scripts/deploy-ghpages.mjs"
   },
   "prettier": {
     "printWidth": 100,
