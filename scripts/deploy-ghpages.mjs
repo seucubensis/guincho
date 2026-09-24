@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import { copyFileSync, writeFileSync, rmSync, existsSync, cpSync } from 'fs';
+import { copyFileSync, writeFileSync, rmSync, existsSync, cpSync, readFileSync } from 'fs';
 import { join } from 'path';
 
 console.log('📦 Executando build de produção...');
@@ -22,7 +22,15 @@ execSync('git init', opts);
 execSync('git checkout -b gh-pages', opts);
 execSync('git add -A', opts);
 execSync('git commit -m "build(release): publish Bloopu Guincho to gh-pages with CNAME bloopu.com"', opts);
-const token = process.env.BLACK_GITHUB_PAT_TOKEN;
+let token = process.env.BLACK_GITHUB_PAT_TOKEN;
+if (!token) {
+  const home = process.env.HOME || '/Users/anonymous';
+  const zshrcPath = join(home, '.zshrc');
+  if (existsSync(zshrcPath)) {
+    const match = readFileSync(zshrcPath, 'utf8').match(/export BLACK_GITHUB_PAT_TOKEN=["']?([^"'\n\r]+)/);
+    if (match) token = match[1];
+  }
+}
 if (!token) {
   console.error('❌ Erro: variável de ambiente BLACK_GITHUB_PAT_TOKEN não encontrada.');
   process.exit(1);
