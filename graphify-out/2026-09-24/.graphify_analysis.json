@@ -1,0 +1,242 @@
+{
+  "communities": {
+    "0": [
+      "angular_common",
+      "angular_compiler",
+      "angular_core",
+      "angular_forms",
+      "angular_platform_browser",
+      "angular_platform_server",
+      "angular_router",
+      "angular_ssr",
+      "express",
+      "package_dependencies",
+      "package_dependencies_angular_common",
+      "package_dependencies_angular_compiler",
+      "package_dependencies_angular_core",
+      "package_dependencies_angular_forms",
+      "package_dependencies_angular_platform_browser",
+      "package_dependencies_angular_platform_server",
+      "package_dependencies_angular_router",
+      "package_dependencies_angular_ssr",
+      "package_dependencies_express",
+      "package_dependencies_rxjs",
+      "package_dependencies_tslib",
+      "rxjs",
+      "tslib"
+    ],
+    "1": [
+      "angular",
+      "angular_architect_test",
+      "angular_cli_packagemanager",
+      "angular_guincho_architect",
+      "angular_guincho_prefix",
+      "angular_guincho_projecttype",
+      "angular_guincho_root",
+      "angular_guincho_schematics",
+      "angular_guincho_sourceroot",
+      "angular_json_angular_cli",
+      "angular_newprojectroot",
+      "angular_projects",
+      "angular_projects_guincho",
+      "angular_schema",
+      "angular_schematics_angular_component_style",
+      "angular_schematics_schematics_angular_component",
+      "angular_test_builder",
+      "angular_version"
+    ],
+    "2": [
+      "angular_architect_build",
+      "angular_architect_serve",
+      "angular_build_builder",
+      "angular_build_configurations",
+      "angular_build_defaultconfiguration",
+      "angular_configurations_development",
+      "angular_configurations_production",
+      "angular_development_buildtarget",
+      "angular_development_extractlicenses",
+      "angular_development_optimization",
+      "angular_development_sourcemap",
+      "angular_production_budgets",
+      "angular_production_buildtarget",
+      "angular_production_outputhashing",
+      "angular_serve_builder",
+      "angular_serve_configurations",
+      "angular_serve_defaultconfiguration"
+    ],
+    "3": [
+      "angular_build",
+      "angular_compiler_cli",
+      "jsdom",
+      "package_devdependencies",
+      "package_devdependencies_angular_build",
+      "package_devdependencies_angular_cli",
+      "package_devdependencies_angular_compiler_cli",
+      "package_devdependencies_jsdom",
+      "package_devdependencies_types_express",
+      "package_devdependencies_types_node",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vitest",
+      "package_json_angular_cli",
+      "types_express",
+      "types_node",
+      "typescript",
+      "vitest"
+    ],
+    "4": [
+      "component",
+      "src_app_app",
+      "src_app_app_app",
+      "src_app_app_config",
+      "src_app_app_config_appconfig",
+      "src_app_app_config_server",
+      "src_app_app_config_server_config",
+      "src_app_app_config_server_serverconfig",
+      "src_app_app_routes",
+      "src_app_app_routes_routes",
+      "src_app_app_routes_server",
+      "src_app_app_routes_server_serverroutes",
+      "src_app_app_spec",
+      "src_main",
+      "src_main_server",
+      "src_main_server_bootstrap"
+    ],
+    "5": [
+      "package",
+      "package_name",
+      "package_prettier",
+      "package_prettier_overrides",
+      "package_prettier_printwidth",
+      "package_prettier_singlequote",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_ng",
+      "package_scripts_serve_ssr_guincho",
+      "package_scripts_start",
+      "package_scripts_test",
+      "package_scripts_watch",
+      "package_version"
+    ],
+    "6": [
+      "angular_build_options",
+      "angular_options_assets",
+      "angular_options_browser",
+      "angular_options_inlinestylelanguage",
+      "angular_options_outputmode",
+      "angular_options_server",
+      "angular_options_ssr",
+      "angular_options_styles",
+      "angular_options_tsconfig",
+      "angular_ssr_entry",
+      "ref_src_styles_scss"
+    ],
+    "7": [
+      "agents",
+      "agents_accessibility_requirements",
+      "agents_angular_best_practices",
+      "agents_components",
+      "agents_services",
+      "agents_state_management",
+      "agents_templates",
+      "agents_typescript_best_practices"
+    ],
+    "8": [
+      "claude_claude",
+      "claude_claude_accessibility_requirements",
+      "claude_claude_angular_best_practices",
+      "claude_claude_components",
+      "claude_claude_services",
+      "claude_claude_state_management",
+      "claude_claude_templates",
+      "claude_claude_typescript_best_practices"
+    ],
+    "9": [
+      "readme",
+      "readme_additional_resources",
+      "readme_building",
+      "readme_code_scaffolding",
+      "readme_development_server",
+      "readme_guincho",
+      "readme_running_end_to_end_tests",
+      "readme_running_unit_tests"
+    ],
+    "10": [
+      "src_server",
+      "src_server_angularapp",
+      "src_server_app",
+      "src_server_browserdistfolder",
+      "src_server_reqhandler"
+    ]
+  },
+  "cohesion": {
+    "0": 0.08695652173913043,
+    "1": 0.1111111111111111,
+    "2": 0.125,
+    "3": 0.11764705882352941,
+    "4": 0.2,
+    "5": 0.13333333333333333,
+    "6": 0.18181818181818182,
+    "7": 0.25,
+    "8": 0.25,
+    "9": 0.25,
+    "10": 0.4
+  },
+  "gods": [
+    {
+      "id": "angular_build_options",
+      "label": "options",
+      "degree": 9
+    },
+    {
+      "id": "readme_guincho",
+      "label": "Guincho",
+      "degree": 7
+    },
+    {
+      "id": "angular_projects_guincho",
+      "label": "guincho",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 7
+    },
+    {
+      "id": "angular_configurations_development",
+      "label": "development",
+      "degree": 6
+    },
+    {
+      "id": "angular_architect_build",
+      "label": "build",
+      "degree": 5
+    },
+    {
+      "id": "angular_configurations_production",
+      "label": "production",
+      "degree": 5
+    },
+    {
+      "id": "src_app_app_app",
+      "label": "App",
+      "degree": 5
+    },
+    {
+      "id": "angular_guincho_architect",
+      "label": "architect",
+      "degree": 4
+    },
+    {
+      "id": "angular_architect_serve",
+      "label": "serve",
+      "degree": 4
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

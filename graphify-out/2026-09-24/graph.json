@@ -10,7 +10,6 @@
       "_callable_class": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app",
       "source_file": "src/app/app.ts",
@@ -22,7 +21,6 @@
       "_callable": true,
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "bootstrap()",
       "source_file": "src/main.server.ts",
@@ -33,260 +31,236 @@
       "label": "dependencies",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L26"
+      "source_location": "L25"
     },
     {
       "id": "package_dependencies_angular_common",
       "label": "@angular/common",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/common",
       "source_file": "package.json",
-      "source_location": "L27"
+      "source_location": "L26"
     },
     {
       "id": "package_dependencies_angular_compiler",
       "label": "@angular/compiler",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/compiler",
       "source_file": "package.json",
-      "source_location": "L28"
+      "source_location": "L27"
     },
     {
       "id": "package_dependencies_angular_core",
       "label": "@angular/core",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/core",
       "source_file": "package.json",
-      "source_location": "L29"
+      "source_location": "L28"
     },
     {
       "id": "package_dependencies_angular_forms",
       "label": "@angular/forms",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/forms",
       "source_file": "package.json",
-      "source_location": "L30"
+      "source_location": "L29"
     },
     {
       "id": "package_dependencies_angular_platform_browser",
       "label": "@angular/platform-browser",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/platform-browser",
       "source_file": "package.json",
-      "source_location": "L31"
+      "source_location": "L30"
     },
     {
       "id": "package_dependencies_angular_platform_server",
       "label": "@angular/platform-server",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/platform-server",
       "source_file": "package.json",
-      "source_location": "L32"
+      "source_location": "L31"
     },
     {
       "id": "package_dependencies_angular_router",
       "label": "@angular/router",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/router",
       "source_file": "package.json",
-      "source_location": "L33"
+      "source_location": "L32"
     },
     {
       "id": "package_dependencies_angular_ssr",
       "label": "@angular/ssr",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "@angular/ssr",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L33"
     },
     {
       "id": "package_dependencies_express",
       "label": "express",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "express",
       "source_file": "package.json",
-      "source_location": "L35"
+      "source_location": "L34"
     },
     {
       "id": "package_dependencies_rxjs",
       "label": "rxjs",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "rxjs",
       "source_file": "package.json",
-      "source_location": "L36"
+      "source_location": "L35"
     },
     {
       "id": "package_dependencies_tslib",
       "label": "tslib",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "code",
       "norm_label": "tslib",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L36"
     },
     {
       "id": "angular_common",
       "label": "@angular/common",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/common",
       "source_file": "package.json",
-      "source_location": "L27"
+      "source_location": "L26"
     },
     {
       "id": "angular_compiler",
       "label": "@angular/compiler",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/compiler",
       "source_file": "package.json",
-      "source_location": "L28"
+      "source_location": "L27"
     },
     {
       "id": "angular_core",
       "label": "@angular/core",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/core",
       "source_file": "package.json",
-      "source_location": "L29"
+      "source_location": "L28"
     },
     {
       "id": "angular_forms",
       "label": "@angular/forms",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/forms",
       "source_file": "package.json",
-      "source_location": "L30"
+      "source_location": "L29"
     },
     {
       "id": "angular_platform_browser",
       "label": "@angular/platform-browser",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/platform-browser",
       "source_file": "package.json",
-      "source_location": "L31"
+      "source_location": "L30"
     },
     {
       "id": "angular_platform_server",
       "label": "@angular/platform-server",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/platform-server",
       "source_file": "package.json",
-      "source_location": "L32"
+      "source_location": "L31"
     },
     {
       "id": "angular_router",
       "label": "@angular/router",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/router",
       "source_file": "package.json",
-      "source_location": "L33"
+      "source_location": "L32"
     },
     {
       "id": "angular_ssr",
       "label": "@angular/ssr",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "@angular/ssr",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L33"
     },
     {
       "id": "express",
       "label": "express",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "express",
       "source_file": "package.json",
-      "source_location": "L35"
+      "source_location": "L34"
     },
     {
       "id": "rxjs",
       "label": "rxjs",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "rxjs",
       "source_file": "package.json",
-      "source_location": "L36"
+      "source_location": "L35"
     },
     {
       "id": "tslib",
       "label": "tslib",
       "_origin": "ast",
       "community": 0,
-      "community_name": "dependencies",
       "file_type": "concept",
       "norm_label": "tslib",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L36"
     },
     {
       "id": "angular",
       "label": "angular.json",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "angular.json",
       "source_file": "angular.json",
@@ -297,7 +271,6 @@
       "label": "test",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "test",
       "source_file": "angular.json",
@@ -308,7 +281,6 @@
       "label": "packageManager",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "packagemanager",
       "source_file": "angular.json",
@@ -319,7 +291,6 @@
       "label": "architect",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "architect",
       "source_file": "angular.json",
@@ -330,7 +301,6 @@
       "label": "prefix",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "prefix",
       "source_file": "angular.json",
@@ -341,7 +311,6 @@
       "label": "projectType",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "projecttype",
       "source_file": "angular.json",
@@ -352,7 +321,6 @@
       "label": "root",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "root",
       "source_file": "angular.json",
@@ -363,7 +331,6 @@
       "label": "schematics",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "schematics",
       "source_file": "angular.json",
@@ -374,7 +341,6 @@
       "label": "sourceRoot",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "sourceroot",
       "source_file": "angular.json",
@@ -385,7 +351,6 @@
       "label": "cli",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "cli",
       "source_file": "angular.json",
@@ -396,7 +361,6 @@
       "label": "newProjectRoot",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "newprojectroot",
       "source_file": "angular.json",
@@ -407,7 +371,6 @@
       "label": "projects",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "projects",
       "source_file": "angular.json",
@@ -418,7 +381,6 @@
       "label": "guincho",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "guincho",
       "source_file": "angular.json",
@@ -429,7 +391,6 @@
       "label": "$schema",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "$schema",
       "source_file": "angular.json",
@@ -440,7 +401,6 @@
       "label": "style",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "style",
       "source_file": "angular.json",
@@ -451,7 +411,6 @@
       "label": "@schematics/angular:component",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "@schematics/angular:component",
       "source_file": "angular.json",
@@ -462,7 +421,6 @@
       "label": "builder",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "builder",
       "source_file": "angular.json",
@@ -473,7 +431,6 @@
       "label": "version",
       "_origin": "ast",
       "community": 1,
-      "community_name": "guincho",
       "file_type": "code",
       "norm_label": "version",
       "source_file": "angular.json",
@@ -484,7 +441,6 @@
       "label": "server.ts",
       "_origin": "ast",
       "community": 10,
-      "community_name": "server.ts",
       "file_type": "code",
       "norm_label": "server.ts",
       "source_file": "src/server.ts",
@@ -495,7 +451,6 @@
       "label": "angularApp",
       "_origin": "ast",
       "community": 10,
-      "community_name": "server.ts",
       "file_type": "code",
       "norm_label": "angularapp",
       "source_file": "src/server.ts",
@@ -506,7 +461,6 @@
       "label": "app",
       "_origin": "ast",
       "community": 10,
-      "community_name": "server.ts",
       "file_type": "code",
       "norm_label": "app",
       "source_file": "src/server.ts",
@@ -517,7 +471,6 @@
       "label": "browserDistFolder",
       "_origin": "ast",
       "community": 10,
-      "community_name": "server.ts",
       "file_type": "code",
       "norm_label": "browserdistfolder",
       "source_file": "src/server.ts",
@@ -528,7 +481,6 @@
       "label": "reqHandler",
       "_origin": "ast",
       "community": 10,
-      "community_name": "server.ts",
       "file_type": "code",
       "norm_label": "reqhandler",
       "source_file": "src/server.ts",
@@ -539,7 +491,6 @@
       "label": "build",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "build",
       "source_file": "angular.json",
@@ -550,7 +501,6 @@
       "label": "serve",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "serve",
       "source_file": "angular.json",
@@ -561,7 +511,6 @@
       "label": "builder",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "builder",
       "source_file": "angular.json",
@@ -572,7 +521,6 @@
       "label": "configurations",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "configurations",
       "source_file": "angular.json",
@@ -583,7 +531,6 @@
       "label": "defaultConfiguration",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "defaultconfiguration",
       "source_file": "angular.json",
@@ -594,7 +541,6 @@
       "label": "development",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "development",
       "source_file": "angular.json",
@@ -605,7 +551,6 @@
       "label": "production",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "production",
       "source_file": "angular.json",
@@ -616,7 +561,6 @@
       "label": "buildTarget",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "buildtarget",
       "source_file": "angular.json",
@@ -627,7 +571,6 @@
       "label": "extractLicenses",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "extractlicenses",
       "source_file": "angular.json",
@@ -638,7 +581,6 @@
       "label": "optimization",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "optimization",
       "source_file": "angular.json",
@@ -649,7 +591,6 @@
       "label": "sourceMap",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "sourcemap",
       "source_file": "angular.json",
@@ -660,7 +601,6 @@
       "label": "budgets",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "budgets",
       "source_file": "angular.json",
@@ -671,7 +611,6 @@
       "label": "buildTarget",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "buildtarget",
       "source_file": "angular.json",
@@ -682,7 +621,6 @@
       "label": "outputHashing",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "outputhashing",
       "source_file": "angular.json",
@@ -693,7 +631,6 @@
       "label": "builder",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "builder",
       "source_file": "angular.json",
@@ -704,7 +641,6 @@
       "label": "configurations",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "configurations",
       "source_file": "angular.json",
@@ -715,7 +651,6 @@
       "label": "defaultConfiguration",
       "_origin": "ast",
       "community": 2,
-      "community_name": "development",
       "file_type": "code",
       "norm_label": "defaultconfiguration",
       "source_file": "angular.json",
@@ -726,187 +661,170 @@
       "label": "devDependencies",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L39"
+      "source_location": "L38"
     },
     {
       "id": "package_devdependencies_angular_build",
       "label": "@angular/build",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "@angular/build",
       "source_file": "package.json",
-      "source_location": "L40"
+      "source_location": "L39"
     },
     {
       "id": "package_devdependencies_angular_cli",
       "label": "@angular/cli",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "@angular/cli",
       "source_file": "package.json",
-      "source_location": "L41"
+      "source_location": "L40"
     },
     {
       "id": "package_devdependencies_angular_compiler_cli",
       "label": "@angular/compiler-cli",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "@angular/compiler-cli",
       "source_file": "package.json",
-      "source_location": "L42"
+      "source_location": "L41"
     },
     {
       "id": "package_devdependencies_jsdom",
       "label": "jsdom",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "jsdom",
       "source_file": "package.json",
-      "source_location": "L45"
+      "source_location": "L44"
     },
     {
       "id": "package_devdependencies_types_express",
       "label": "@types/express",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "@types/express",
       "source_file": "package.json",
-      "source_location": "L43"
+      "source_location": "L42"
     },
     {
       "id": "package_devdependencies_types_node",
       "label": "@types/node",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L44"
+      "source_location": "L43"
     },
     {
       "id": "package_devdependencies_typescript",
       "label": "typescript",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L46"
+      "source_location": "L45"
     },
     {
       "id": "package_devdependencies_vitest",
       "label": "vitest",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "code",
       "norm_label": "vitest",
       "source_file": "package.json",
-      "source_location": "L47"
+      "source_location": "L46"
     },
     {
       "id": "angular_build",
       "label": "@angular/build",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "@angular/build",
       "source_file": "package.json",
-      "source_location": "L40"
+      "source_location": "L39"
     },
     {
       "id": "angular_compiler_cli",
       "label": "@angular/compiler-cli",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "@angular/compiler-cli",
       "source_file": "package.json",
-      "source_location": "L42"
+      "source_location": "L41"
     },
     {
       "id": "jsdom",
       "label": "jsdom",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "jsdom",
       "source_file": "package.json",
-      "source_location": "L45"
+      "source_location": "L44"
     },
     {
       "id": "package_json_angular_cli",
       "label": "@angular/cli",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "@angular/cli",
       "source_file": "package.json",
-      "source_location": "L41"
+      "source_location": "L40"
     },
     {
       "id": "types_express",
       "label": "@types/express",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "@types/express",
       "source_file": "package.json",
-      "source_location": "L43"
+      "source_location": "L42"
     },
     {
       "id": "types_node",
       "label": "@types/node",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L44"
+      "source_location": "L43"
     },
     {
       "id": "typescript",
       "label": "typescript",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L46"
+      "source_location": "L45"
     },
     {
       "id": "vitest",
       "label": "vitest",
       "_origin": "ast",
       "community": 3,
-      "community_name": "devDependencies",
       "file_type": "concept",
       "norm_label": "vitest",
       "source_file": "package.json",
-      "source_location": "L47"
+      "source_location": "L46"
     },
     {
       "id": "component",
@@ -924,7 +842,6 @@
       "label": "app.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.ts",
       "source_file": "src/app/app.ts",
@@ -935,7 +852,6 @@
       "label": "app.config.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.config.ts",
       "source_file": "src/app/app.config.ts",
@@ -946,7 +862,6 @@
       "label": "appConfig",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "appconfig",
       "source_file": "src/app/app.config.ts",
@@ -957,7 +872,6 @@
       "label": "app.config.server.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.config.server.ts",
       "source_file": "src/app/app.config.server.ts",
@@ -968,7 +882,6 @@
       "label": "config",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "config",
       "source_file": "src/app/app.config.server.ts",
@@ -979,7 +892,6 @@
       "label": "serverConfig",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "serverconfig",
       "source_file": "src/app/app.config.server.ts",
@@ -990,7 +902,6 @@
       "label": "app.routes.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.routes.ts",
       "source_file": "src/app/app.routes.ts",
@@ -1001,7 +912,6 @@
       "label": "routes",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "routes",
       "source_file": "src/app/app.routes.ts",
@@ -1012,7 +922,6 @@
       "label": "app.routes.server.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.routes.server.ts",
       "source_file": "src/app/app.routes.server.ts",
@@ -1023,7 +932,6 @@
       "label": "serverRoutes",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "serverroutes",
       "source_file": "src/app/app.routes.server.ts",
@@ -1034,7 +942,6 @@
       "label": "app.spec.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "app.spec.ts",
       "source_file": "src/app/app.spec.ts",
@@ -1045,7 +952,6 @@
       "label": "main.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "main.ts",
       "source_file": "src/main.ts",
@@ -1056,7 +962,6 @@
       "label": "main.server.ts",
       "_origin": "ast",
       "community": 4,
-      "community_name": "app.config.server.ts",
       "file_type": "code",
       "norm_label": "main.server.ts",
       "source_file": "src/main.server.ts",
@@ -1067,7 +972,6 @@
       "label": "package.json",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "package.json",
       "source_file": "package.json",
@@ -1078,29 +982,16 @@
       "label": "name",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "name",
       "source_file": "package.json",
       "source_location": "L2"
     },
     {
-      "id": "package_packagemanager",
-      "label": "packageManager",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "packagemanager",
-      "source_file": "package.json",
-      "source_location": "L25"
-    },
-    {
       "id": "package_prettier",
       "label": "prettier",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "prettier",
       "source_file": "package.json",
@@ -1111,7 +1002,6 @@
       "label": "overrides",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "overrides",
       "source_file": "package.json",
@@ -1122,7 +1012,6 @@
       "label": "printWidth",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "printwidth",
       "source_file": "package.json",
@@ -1133,7 +1022,6 @@
       "label": "singleQuote",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "singlequote",
       "source_file": "package.json",
@@ -1144,7 +1032,6 @@
       "label": "private",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "private",
       "source_file": "package.json",
@@ -1155,7 +1042,6 @@
       "label": "scripts",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "scripts",
       "source_file": "package.json",
@@ -1166,7 +1052,6 @@
       "label": "build",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "build",
       "source_file": "package.json",
@@ -1177,7 +1062,6 @@
       "label": "ng",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "ng",
       "source_file": "package.json",
@@ -1188,7 +1072,6 @@
       "label": "serve:ssr:guincho",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "serve:ssr:guincho",
       "source_file": "package.json",
@@ -1199,7 +1082,6 @@
       "label": "start",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "start",
       "source_file": "package.json",
@@ -1210,7 +1092,6 @@
       "label": "test",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "test",
       "source_file": "package.json",
@@ -1221,7 +1102,6 @@
       "label": "watch",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "watch",
       "source_file": "package.json",
@@ -1232,7 +1112,6 @@
       "label": "version",
       "_origin": "ast",
       "community": 5,
-      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "version",
       "source_file": "package.json",
@@ -1243,7 +1122,6 @@
       "label": "options",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "options",
       "source_file": "angular.json",
@@ -1254,7 +1132,6 @@
       "label": "assets",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "assets",
       "source_file": "angular.json",
@@ -1265,7 +1142,6 @@
       "label": "browser",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "browser",
       "source_file": "angular.json",
@@ -1276,7 +1152,6 @@
       "label": "inlineStyleLanguage",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "inlinestylelanguage",
       "source_file": "angular.json",
@@ -1287,7 +1162,6 @@
       "label": "outputMode",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "outputmode",
       "source_file": "angular.json",
@@ -1298,7 +1172,6 @@
       "label": "server",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "server",
       "source_file": "angular.json",
@@ -1309,7 +1182,6 @@
       "label": "ssr",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "ssr",
       "source_file": "angular.json",
@@ -1320,7 +1192,6 @@
       "label": "styles",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "styles",
       "source_file": "angular.json",
@@ -1331,7 +1202,6 @@
       "label": "tsConfig",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "tsconfig",
       "source_file": "angular.json",
@@ -1342,7 +1212,6 @@
       "label": "entry",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "code",
       "norm_label": "entry",
       "source_file": "angular.json",
@@ -1353,7 +1222,6 @@
       "label": "src/styles.scss",
       "_origin": "ast",
       "community": 6,
-      "community_name": "options",
       "file_type": "concept",
       "norm_label": "src/styles.scss",
       "source_file": "angular.json",
@@ -1682,7 +1550,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -1694,7 +1562,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -1706,7 +1574,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -1718,7 +1586,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -1730,7 +1598,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -1742,7 +1610,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -1754,7 +1622,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -1766,7 +1634,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -1778,7 +1646,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L35",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -1790,7 +1658,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -1802,7 +1670,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -1814,7 +1682,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L40",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -1826,7 +1694,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L41",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -1838,7 +1706,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L42",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -1850,7 +1718,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L45",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -1862,7 +1730,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L43",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -1874,7 +1742,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L44",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -1886,7 +1754,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L46",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -1898,7 +1766,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L47",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -2788,24 +2656,13 @@
     },
     {
       "source": "package",
-      "target": "package_packagemanager",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
       "target": "package_dependencies",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -2827,7 +2684,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L39",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -2849,7 +2706,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L27",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -2860,7 +2717,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L28",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -2871,7 +2728,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L29",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -2882,7 +2739,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L30",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -2893,7 +2750,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L31",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -2904,7 +2761,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L32",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -2915,7 +2772,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -2926,7 +2783,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -2937,7 +2794,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L35",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -2948,7 +2805,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -2959,7 +2816,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -2970,7 +2827,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L40",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -2981,7 +2838,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L41",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -2992,7 +2849,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L42",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -3003,7 +2860,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L43",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -3014,7 +2871,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L44",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -3025,7 +2882,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L45",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -3036,7 +2893,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L46",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
@@ -3047,7 +2904,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L47",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -3348,5 +3205,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "801c6f9761d1a8a420fd3e4e204897c2d651a883"
 }

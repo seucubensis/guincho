@@ -130,5 +130,11 @@
     "seen": 1790219358.381595,
     "ast_hash": "fd6e255dc9d587f1643bdc75ad195ba6",
     "semantic_hash": ""
+  },
+  "raw/static/js/main.d66c529c.js": {
+    "mtime": 1790218833.6084015,
+    "seen": 1790219567.06481,
+    "ast_hash": "831ed6e36fbf89b1ba3cd2a9cb664603",
+    "semantic_hash": "831ed6e36fbf89b1ba3cd2a9cb664603"
   }
 }
