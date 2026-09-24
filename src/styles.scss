@@ -1,1 +1,93 @@
-/* You can add global styles to this file, and also import other style files */
+@use './assets/css/tailwind-bundle.css';
+
+/* Global resets & typography */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+::selection {
+  background: #f45100;
+  color: #ffffff;
+}
+
+.font-display {
+  font-family: 'Cabinet Grotesk', 'Manrope', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.brand-orange {
+  color: #f45100;
+}
+
+.bg-brand-orange {
+  background-color: #f45100;
+}
+
+.bg-brand-orange-hover:hover {
+  background-color: #d14500;
+}
+
+.border-brand-orange {
+  border-color: #f45100;
+}
+
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45) 50%, rgba(244, 81, 0, 0.3));
+}
+
+.emergency-stripes {
+  background-image: repeating-linear-gradient(45deg, #f45100, #f45100 16px, #0a0a0a 0, #0a0a0a 32px);
+}
+
+.noise-bg {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    opacity: 0.04;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+@keyframes whatsapp-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 22px rgba(37, 211, 102, 0);
+  }
+}
+
+.animate-whatsapp {
+  animation: whatsapp-pulse 2s ease-out infinite;
+}
+
+.cta-bar-shadow {
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.12);
+}
