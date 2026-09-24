@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 
 @Component({
   selector: 'app-services-page',
@@ -39,6 +40,8 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
               <div class="flex flex-col sm:flex-row gap-3 pt-4 border-t border-gray-200">
                 <a
                   [href]="getWhatsAppUrl(service.msg)"
+                  (click)="trackWhatsApp(service.id)"
+                  [attr.data-testid]="'services-page-whatsapp-' + service.id"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="flex-1 inline-flex items-center justify-center gap-2 py-3 px-4 bg-[#25D366] hover:bg-[#1ebd5c] text-white rounded-xl font-bold text-sm transition-all"
@@ -62,9 +65,16 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 })
 export class ServicesPageComponent {
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
+
   protected readonly services = this.dataService.services;
 
   protected getWhatsAppUrl(msg?: string): string {
     return this.dataService.getWhatsAppUrl(msg);
   }
+
+  protected trackWhatsApp(serviceId: string): void {
+    this.tracking.trackWhatsAppConversion({ location: 'services_page_card', serviceId });
+  }
 }
+

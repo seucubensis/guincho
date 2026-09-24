@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 
 @Component({
   selector: 'app-footer',
@@ -41,6 +42,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
               <li>
                 <a
                   [href]="company().phoneTel"
+                  (click)="onPhoneClick()"
                   data-testid="footer-phone-link"
                   class="flex items-start gap-3 group hover:text-[#ffb800] transition-colors"
                 >
@@ -69,6 +71,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
               <li>
                 <a
                   [href]="whatsappUrl()"
+                  (click)="onWhatsAppClick()"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid="footer-whatsapp-link"
@@ -201,11 +204,21 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 })
 export class FooterComponent {
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
+
   protected readonly company = this.dataService.company;
   protected readonly services = this.dataService.services;
   protected readonly currentYear = 2026;
 
   protected whatsappUrl(): string {
     return this.dataService.getWhatsAppUrl();
+  }
+
+  protected onPhoneClick(): void {
+    this.tracking.trackPhoneConversion({ location: 'footer' });
+  }
+
+  protected onWhatsAppClick(): void {
+    this.tracking.trackWhatsAppConversion({ location: 'footer' });
   }
 }

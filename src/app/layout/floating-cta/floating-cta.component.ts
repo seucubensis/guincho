@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, DestroyRef, OnInit, inject, signal } from '@angular/core';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 
 @Component({
   selector: 'app-floating-cta',
@@ -41,6 +42,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
       <a
         [href]="whatsappUrl()"
+        (click)="onFloatingWhatsAppClick()"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="floating-whatsapp-btn"
@@ -58,6 +60,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
       <div class="grid grid-cols-2">
         <a
           [href]="company().phoneTel"
+          (click)="onMobilePhoneClick()"
           data-testid="mobile-bar-phone-btn"
           class="flex items-center justify-center gap-2 py-4 bg-[#ffb800] text-black font-bold text-sm uppercase tracking-wider active:bg-[#e0a800]"
         >
@@ -80,6 +83,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
         <a
           [href]="whatsappUrl()"
+          (click)="onMobileWhatsAppClick()"
           target="_blank"
           rel="noopener noreferrer"
           data-testid="mobile-bar-whatsapp-btn"
@@ -97,6 +101,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 })
 export class FloatingCtaComponent implements OnInit {
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
   private readonly destroyRef = inject(DestroyRef);
 
   protected readonly company = this.dataService.company;
@@ -122,5 +127,17 @@ export class FloatingCtaComponent implements OnInit {
 
   protected whatsappUrl(): string {
     return this.dataService.getWhatsAppUrl();
+  }
+
+  protected onFloatingWhatsAppClick(): void {
+    this.tracking.trackWhatsAppConversion({ location: 'floating_button' });
+  }
+
+  protected onMobilePhoneClick(): void {
+    this.tracking.trackPhoneConversion({ location: 'mobile_bottom_bar' });
+  }
+
+  protected onMobileWhatsAppClick(): void {
+    this.tracking.trackWhatsAppConversion({ location: 'mobile_bottom_bar' });
   }
 }

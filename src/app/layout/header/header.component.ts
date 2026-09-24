@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
 @Component({
@@ -21,6 +22,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
         <div class="hidden md:flex items-center gap-3">
           <a
             [href]="company().phoneTel"
+            (click)="onPhoneClick()"
             data-testid="header-phone-btn"
             class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full border-2 border-black hover:bg-black hover:text-white transition-all duration-300 font-bold text-sm"
           >
@@ -43,6 +45,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
           <a
             [href]="whatsappUrl()"
+            (click)="onWhatsAppClick()"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="header-whatsapp-btn"
@@ -61,9 +64,19 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 })
 export class HeaderComponent {
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
+
   protected readonly company = this.dataService.company;
 
   protected whatsappUrl(): string {
     return this.dataService.getWhatsAppUrl();
+  }
+
+  protected onPhoneClick(): void {
+    this.tracking.trackPhoneConversion({ location: 'header' });
+  }
+
+  protected onWhatsAppClick(): void {
+    this.tracking.trackWhatsAppConversion({ location: 'header' });
   }
 }

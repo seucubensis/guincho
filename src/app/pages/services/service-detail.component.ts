@@ -3,6 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { map } from 'rxjs';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 
 @Component({
   selector: 'app-service-detail',
@@ -50,8 +51,10 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
             <div class="flex flex-col sm:flex-row gap-4">
               <a
                 [href]="getWhatsAppUrl(s.msg)"
+                (click)="trackWhatsApp(s.id)"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-testid="service-detail-whatsapp-btn"
                 class="inline-flex items-center justify-center gap-3 px-8 py-5 bg-[#25D366] hover:bg-[#1ebd5c] text-white rounded-2xl font-extrabold text-base md:text-lg transition-all"
               >
                 Chamar no WhatsApp Agora
@@ -59,6 +62,8 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 
               <a
                 [href]="company().phoneTel"
+                (click)="trackPhone()"
+                data-testid="service-detail-phone-btn"
                 class="inline-flex items-center justify-center gap-3 px-8 py-5 border-2 border-black hover:bg-black hover:text-white rounded-2xl font-extrabold text-base md:text-lg transition-all"
               >
                 Ligar {{ company().phone }}
@@ -79,6 +84,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 export class ServiceDetailComponent {
   private readonly route = inject(ActivatedRoute);
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
 
   protected readonly company = this.dataService.company;
 
@@ -93,5 +99,13 @@ export class ServiceDetailComponent {
 
   protected getWhatsAppUrl(msg: string): string {
     return this.dataService.getWhatsAppUrl(msg);
+  }
+
+  protected trackWhatsApp(serviceId: string): void {
+    this.tracking.trackWhatsAppConversion({ location: 'service_detail', serviceId });
+  }
+
+  protected trackPhone(): void {
+    this.tracking.trackPhoneConversion({ location: 'service_detail' });
   }
 }

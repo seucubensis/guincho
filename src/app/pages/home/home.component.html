@@ -43,6 +43,7 @@
       <div class="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 fade-up" style="animation-delay: 0.3s">
         <a
           [href]="getWhatsAppUrl()"
+          (click)="trackWhatsApp('hero')"
           target="_blank"
           rel="noopener noreferrer"
           data-testid="hero-whatsapp-btn"
@@ -56,6 +57,7 @@
 
         <a
           [href]="company().phoneTel"
+          (click)="trackPhone('hero')"
           data-testid="hero-phone-btn"
           class="group inline-flex items-center justify-center gap-3 px-7 py-5 bg-white/10 hover:bg-white text-white hover:text-black backdrop-blur-md border border-white/30 hover:border-white rounded-2xl font-extrabold text-base md:text-lg transition-all duration-300"
         >
@@ -179,6 +181,7 @@
         @let isDark = idx === 3 || idx === 7;
         <a
           [href]="getWhatsAppUrl(service.msg)"
+          (click)="trackWhatsApp('services_list', service.id)"
           target="_blank"
           rel="noopener noreferrer"
           [attr.data-testid]="'service-card-' + service.id"
@@ -241,6 +244,7 @@
       </div>
       <a
         [href]="getWhatsAppUrl('Olá! Preciso de ajuda com meu veículo em Praia Grande.')"
+        (click)="trackWhatsApp('services_banner')"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="services-banner-whatsapp-btn"
@@ -312,6 +316,7 @@
         <div class="mt-10 flex flex-col sm:flex-row gap-3">
           <a
             [href]="getWhatsAppUrl()"
+            (click)="trackWhatsApp('why_us')"
             target="_blank"
             rel="noopener noreferrer"
             data-testid="whyus-whatsapp-btn"
@@ -321,6 +326,7 @@
           </a>
           <a
             [href]="company().phoneTel"
+            (click)="trackPhone('why_us')"
             data-testid="whyus-phone-btn"
             class="inline-flex items-center justify-center gap-2 px-6 py-4 border-2 border-black hover:bg-black hover:text-white rounded-xl font-bold text-sm uppercase tracking-wider transition-all"
           >
@@ -435,6 +441,7 @@
 
         <a
           [href]="getWhatsAppUrl('Olá! Quero confirmar se vocês atendem na minha região de Praia Grande')"
+          (click)="trackWhatsApp('coverage')"
           target="_blank"
           rel="noopener noreferrer"
           data-testid="coverage-whatsapp-btn"
@@ -481,10 +488,11 @@
         </p>
         <a
           [href]="getWhatsAppUrl('Olá! Tenho uma dúvida sobre o serviço de guincho.')"
+          (click)="trackWhatsApp('faq')"
           target="_blank"
           rel="noopener noreferrer"
           data-testid="faq-whatsapp-btn"
-          class="mt-7 inline-flex items-center gap-2 px-6 py-4 bg-[#0a0a0a] hover:bg-[#ffb800] text-black rounded-xl font-bold text-sm uppercase tracking-wider transition-all"
+          class="mt-7 inline-flex items-center gap-2 px-6 py-4 bg-[#0a0a0a] hover:bg-[#ffb800] text-white hover:text-black rounded-xl font-bold text-sm uppercase tracking-wider transition-all"
         >
           Tirar Dúvida no WhatsApp
         </a>
@@ -554,6 +562,7 @@
     <div class="mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-2xl mx-auto">
       <a
         [href]="getWhatsAppUrl()"
+        (click)="trackWhatsApp('bottom_cta')"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="cta-whatsapp-btn"
@@ -567,6 +576,7 @@
 
       <a
         [href]="company().phoneTel"
+        (click)="trackPhone('bottom_cta')"
         data-testid="cta-phone-btn"
         class="inline-flex items-center justify-center gap-3 px-8 py-5 bg-black hover:bg-neutral-900 text-white rounded-2xl font-extrabold text-base md:text-lg shadow-2xl shadow-black/30 transition-all duration-300 hover:scale-[1.02]"
       >

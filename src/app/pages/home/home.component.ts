@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { GuinchoDataService } from '../../core/services/guincho-data.service';
+import { GoogleAdsTrackingService } from '../../core/services/google-ads-tracking.service';
 
 @Component({
   selector: 'app-home',
@@ -9,6 +10,7 @@ import { GuinchoDataService } from '../../core/services/guincho-data.service';
 })
 export class HomeComponent {
   private readonly dataService = inject(GuinchoDataService);
+  private readonly tracking = inject(GoogleAdsTrackingService);
 
   protected readonly company = this.dataService.company;
   protected readonly services = this.dataService.services;
@@ -33,4 +35,13 @@ export class HomeComponent {
   protected getWhatsAppUrl(msg?: string): string {
     return this.dataService.getWhatsAppUrl(msg);
   }
+
+  protected trackWhatsApp(location: string, serviceId?: string): void {
+    this.tracking.trackWhatsAppConversion({ location, serviceId });
+  }
+
+  protected trackPhone(location: string): void {
+    this.tracking.trackPhoneConversion({ location });
+  }
 }
+
