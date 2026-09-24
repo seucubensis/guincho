@@ -22,7 +22,14 @@ execSync('git init', opts);
 execSync('git checkout -b gh-pages', opts);
 execSync('git add -A', opts);
 execSync('git commit -m "build(release): publish Bloopu Guincho to gh-pages with CNAME bloopu.com"', opts);
-execSync('git remote add origin git@github.com:hauzlife/guincho.git', opts);
+const token = process.env.BLACK_GITHUB_PAT_TOKEN;
+if (!token) {
+  console.error('❌ Erro: variável de ambiente BLACK_GITHUB_PAT_TOKEN não encontrada.');
+  process.exit(1);
+}
+const remoteUrl = `https://x-access-token:${token}@github.com/seucubensis/guincho.git`;
+
+execSync(`git remote add origin "${remoteUrl}"`, opts);
 execSync('git push origin gh-pages --force', opts);
 
 console.log('✅ Deploy concluído com sucesso para bloopu.com na branch gh-pages!');
